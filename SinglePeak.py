@@ -41,6 +41,6 @@ class SinglePeak():
 		# if MaxCounts is between CountsRange[0] and CountsRange[1]
 		# then Indicator = True pass the check
 		self.CountsRange=CountsRange
-		if self.MaxCounts>self.CountsRange[0]&self.MaxCounts<self.CountsRange[1]:
+		if self.MaxCounts>self.CountsRange[0] and self.MaxCounts<self.CountsRange[1]:
 			self.Indicator=True
 		return self.Indicator
